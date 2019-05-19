@@ -1,0 +1,19 @@
+{
+  "name": "graph_calculator",
+  "version": "0.1.0",
+  "description": "Oversimplified Desmos",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "graph",
+    "calculator"
+  ],
+  "author": "GGC_",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^4.1.4",
+    "polynomial": "^1.4.3"
+  }
+}

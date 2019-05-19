@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Graph Calculator</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <script src="js/p5.js" charset="utf-8"></script>
+        <script src="js/main.js" charset="utf-8"></script>
+
+        <span id="quit"></span>
+        <span id="angleType">DEG</span>
+
+        <script type="text/javascript">
+
+            const {remote} = require('electron');
+
+            document.getElementById('quit').addEventListener('click', () => {
+                remote.app.hide();
+            });
+
+            document.getElementById('angleType').addEventListener('click', () => {
+                let m = aMode == DEGREES ? 'RAD' : 'DEG';
+
+                angleMode(aMode = (aMode == DEGREES ? RADIANS : DEGREES));
+
+                document.getElementById('angleType').innerHTML = m;
+            });
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,81 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900');
+
+body, html {
+    margin: 0;
+    background-color: rgb(3, 3, 3);
+    -webkit-app-region: drag;
+}
+
+canvas:hover {
+    cursor: grab;
+}
+
+canvas:active {
+    cursor: grabbing;
+}
+
+canvas {
+    -webkit-app-region: no-drag;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 2px 17px 3px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 2px 17px 3px rgba(0,0,0,0.67);
+    box-shadow: 0px 2px 17px 3px rgba(0,0,0,0.67);
+    z-index: -1;
+}
+
+#quit {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+}
+
+#quit:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#quit:before, #quit:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 22px;
+    width: 2px;
+    background-color: #333;
+}
+
+#quit:before {
+    transform: rotate(45deg);
+}
+
+#quit:after {
+    transform: rotate(-45deg);
+}
+
+#angleType {
+    position: absolute;
+    font-family: 'Roboto';
+    right: 450px;
+    top: 465px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+#angleType:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
