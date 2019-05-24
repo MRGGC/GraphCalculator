@@ -8,13 +8,13 @@ This is an app that allows you to calculate numbers, draw graphs and functions, 
 
 ## Screenshots
 
-<img src="https://drive.google.com/uc?id=1_ay_Kz575PJkk8urCPBb3l4GX4OOuSy9">
+<img src="https://drive.google.com/uc?id=1_ay_Kz575PJkk8urCPBb3l4GX4OOuSy9" width=430 height=430>
 
-<img src="https://drive.google.com/uc?id=1WffCAVEaWD18zHLERlCnNc4iUCKEVbY3">
+<img src="https://drive.google.com/uc?id=1WffCAVEaWD18zHLERlCnNc4iUCKEVbY3" width=430 height=430>
 
-<img src="https://drive.google.com/uc?id=1Me39HDO6b7cy4L1eHMpG4XaMXEhJtzQu">
+<img src="https://drive.google.com/uc?id=1Me39HDO6b7cy4L1eHMpG4XaMXEhJtzQu" width=430 height=430>
 
-<img src="https://drive.google.com/uc?id=1hfSaQIKjHDGq9j1W4gSAyggP4pDBRxeA">
+<img src="https://drive.google.com/uc?id=1hfSaQIKjHDGq9j1W4gSAyggP4pDBRxeA" width=430 height=430>
 
 ## Written in...
 
