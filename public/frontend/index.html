@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Graph Calculator, v beta 0.0.1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div class="input">
+      <form action="index.html" method="post">
+        <label for="func1"><b>Insert your first equation:</b></label><br><br>
+        <input type="text" name="func1" placeholder="example: y = 2x + 6"><br><br>
+        <label for="func2"><b>Insert your second equation:</b></label><br><br>
+        <input type="text" name="func2" placeholder="example: y = x^ + 6x - 7"><br><br>
+        <label for="func3"><b>Insert your third equation:</b></label><br><br>
+        <input type="text" name="func3" placeholder="example: y = x^ - 54"><br><br>
+        <label for="func4"><b>Insert your forth equation:</b></label><br><br>
+        <input type="text" name="func4" placeholder="example: y = 9"><br><br>
+      </form>
+      <hr>
+      <form action="index.html" method="post" class="frm">
+      <p><b>simple calculator</b></p>
+        <label for="first">Insert first number(a)</label><br>
+        <input type="number" id="first_value" name="first"><br><br>
+        <label for="second">Insert second number(b)</label><br>
+        <input type="number" id="second_value" name="second"><br><br>
+        <label for="sign">Choose sign</label><br>
+          <select id="sign" name="sign">
+            <option>Choose</option>
+            <option>+</option>
+            <option>-</option>
+            <option>*</option>
+            <option>/</option>
+            <option>%</option>
+            <option>/?</option>
+            <option>sqrt</option>
+            <option>2</option>
+            <option>n</option>
+          </select><br><br>
+        <!--<input type="text" id="sign" name="sign"><br><br>-->
+        <input type="submit" onclick="aziz()" value="calculate" class="but">
+      </form>
+      <p>+ : add, գումարել</p>
+      <p>- : subtract, հանել</p>
+      <p>* : multiply, բազմապատկել</p>
+      <p>/ : divide, բաժանել</p>
+      <p>% : percentage (first number % second number, a-ն b-ի քանի տոկոսն է)</p>
+      <p>/? : dividable or not, a-ն b-ի բաժանվում է, թե ոչ</p>
+      <p>sqrt : square root, քառակուսի արմատ (write only in the a, գրել միայն a-ի մեջ)</p>
+      <p><sup>2</sup> : square up, քառակուսի բարձրացնել (You can write just 2 in the a input, կարող եք միայն 2 գրել a թվի համար)</p>
+      <p><sup>n</sup> : n powers up, n աստիճան բարձրացնել (You can write just n, a is powered to b, կարող եք միայն n գրել, a թիվը b աստիճան է բարձրանում)</p>
+      <p>version: beta 0.0.2</p>
+    </div>
+    <div class="output">
+
+    </div>
+  </body>
+</html>

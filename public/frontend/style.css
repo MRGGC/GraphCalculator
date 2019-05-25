@@ -1,0 +1,42 @@
+.input
+{
+  width: 20%;
+  /*height: 97vh;*/
+  border: 1px solid black;
+  margin: 0px;
+  padding: 10px;
+}
+
+.but
+{
+  width: 100px;
+  height: 30px;
+  background-color: lightgreen;
+  border: 0.5px solid green;
+  border-radius: 5px;
+  color: black;
+}
+
+.but:hover
+{
+  background-color: orange;
+  color: white;
+  transition: 0.4s;
+  border: 0.5px solid red;
+}
+
+input
+{
+  background-color: lightblue;
+  border: 0.5px solid blue;
+  padding: 2px;
+}
+
+select
+{
+  background-color: lightblue;
+  border: 0.5px solid blue;
+  padding: 2px;
+  width: 150px;
+  height: 20px;
+}
